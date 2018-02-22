@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="227px" height="615px" viewBox="0 0 227 615" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6">
+            <rect id="Rectangle-13" fill="#000000" x="119" y="493" width="86" height="122" rx="43"></rect>
+            <rect id="Rectangle-13" fill="#000000" x="19" y="493" width="86" height="122" rx="43"></rect>
+            <rect id="Rectangle-7" fill="#FFFFFF" x="119" y="345" width="86" height="217" rx="37"></rect>
+            <rect id="Rectangle-7" fill="#FFFFFF" x="20" y="345" width="86" height="217" rx="37"></rect>
+            <rect id="Rectangle-9" stroke="#000000" stroke-width="3" x="142.5" y="95.5" width="83" height="44" rx="10"></rect>
+            <rect id="Rectangle-8" fill="#D8D8D8" x="8" y="117" width="203" height="144" rx="37"></rect>
+            <path d="M41.5,56.0108683 L41.5,10" id="Path-6" stroke="#979797" stroke-width="3"></path>
+            <rect id="Rectangle" fill="#FFFFFF" x="22" y="27" width="172" height="136" rx="63"></rect>
+            <rect id="Rectangle" fill="#000000" x="50" y="49" width="116" height="92" rx="46"></rect>
+            <rect id="Rectangle-4" fill="#FFFFFF" x="12" y="76" width="25" height="37" rx="9"></rect>
+            <rect id="Rectangle-4" fill="#FFFFFF" x="179" y="76" width="25" height="37" rx="9"></rect>
+            <circle id="Oval-4" fill="#FFFFFF" cx="41.5" cy="5.5" r="5.5"></circle>
+            <rect id="Rectangle-6" fill="#FFFFFF" x="47" y="143" width="121" height="46" rx="9"></rect>
+            <path d="M47,154 L168,154 L168,171 C168,171 129.6875,177 107.5,177 C85.3125,177 47,171 47,171 L47,154 Z" id="Rectangle-5" fill="#000000"></path>
+            <path d="M8,354 L211,354 L211,371 C211,371 146.723657,377 109.5,377 C72.276343,377 8,371 8,371 L8,354 Z" id="Rectangle-5" fill="#D8D8D8"></path>
+            <rect id="Rectangle-7" fill="#FFFFFF" x="2" y="178" width="216" height="178" rx="37"></rect>
+            <g id="Group-2" transform="translate(0.000000, 330.000000)" fill="#000000">
+                <rect id="Rectangle-10" x="0" y="0" width="40" height="58" rx="10"></rect>
+                <rect id="Rectangle-11" transform="translate(40.000000, 19.500000) rotate(49.000000) translate(-40.000000, -19.500000) " x="22" y="13" width="36" height="13" rx="6.5"></rect>
+            </g>
+            <g id="Group-2" transform="translate(188.500000, 359.000000) scale(-1, 1) translate(-188.500000, -359.000000) translate(160.000000, 330.000000)" fill="#000000">
+                <rect id="Rectangle-10" x="0" y="0" width="40" height="58" rx="10"></rect>
+                <rect id="Rectangle-11" transform="translate(40.000000, 19.500000) rotate(49.000000) translate(-40.000000, -19.500000) " x="22" y="13" width="36" height="13" rx="6.5"></rect>
+            </g>
+            <rect id="Rectangle-12" fill="#D8D8D8" x="7" y="281" width="21" height="35"></rect>
+        </g>
+    </g>
+</svg>
