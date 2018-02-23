@@ -4,10 +4,25 @@ window.onload = function docReady() {
   }, 500);
 
 
+  (function() {
+    var counter = 200127567;
+    window.kmCounterOptions = {
+    duration: 1000,
+    theme: "default"
+ };
+
+kmCounter.innerHTML = counter;
+
+setInterval(function() {
+counter += 7900;
+kmCounter.innerHTML = counter;
+}, 1600);
+})();
+
 //   var tr1 = document.getElementById('triangle-1');
 //   tr1.addEventListener('click', function() {
 //     console.log('test');
-//     alert('meloen is gek');
+//     alert('milou is gek');
 //   });
 
 //   document.addEventListener('click', function(e) {
@@ -128,3 +143,4 @@ particlesJS('particles-js',
   }
 
 );
+
