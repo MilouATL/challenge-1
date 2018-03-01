@@ -55,6 +55,7 @@ body {
     font-size: 56px;
     align-self: center;
     text-align: center;
+    margin-top: 30px;
 }
 
 #realTime {
@@ -84,25 +85,40 @@ img {
 .hotspot {
     width: 70px;
     height: 70px;
-    border-radius: 50%;
     display: block;
     position: absolute;
 }
 
 .hotspot:first-of-type {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 172px 90px 151px;
+    border-color: transparent transparent transparent transparent;
     top: 117px;
-    left: 57px;
+    transform: rotate(479deg);
+    left: -70px;
 }
 
 .hotspot:nth-of-type(2) {
-    top: 117px;
-    right: 57px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 192px 92px 161px;
+    border-color: transparent transparent transparent transparent;
+    top: 97px;
+    left: -3px;
+    transform: rotate(244deg);
 }
 
 .hotspot:last-of-type {
-    bottom: 10px;
-    left: 101px;
-
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 130px 90px 130px;
+    border-color: transparent transparent transparent transparent;
+    top: 179px;
+    left: 6px;
 }
 
 canvas {
@@ -121,65 +137,38 @@ h1 {
     grid-row: 1;
     padding-top: 20px;
     font-size: 45px;
-    grid-column: 3/9;
+    grid-column: 2/10;
     font-weight: bold;
 }
 
 .contentContainer {
     font-size: 30px;
-    grid-column: 2/10;
+    grid-column: 2/12;
+    grid-row: 1;
+    margin-top: 20px;
     display: inline-block;
 }
 
 .kmCounter {
     font-weight: bold;
-    padding: 15px;
+    padding: 15px 0px 15px 0px;
     letter-spacing: 5px;
-    
+  
 }
 
 .family { 
     z-index: 10;
     grid-row: 3/6;
-    grid-column: 3/10;
+    align-self: center;
+    grid-column: 2/12;   
 }
-
-/* .hexagon {
-    position: relative;
-    width: 300px; 
-    height: 173.21px;
-    background-color: #FFF;
-    margin: 86.60px 0;
-    grid-column: 4/9;
-    grid-row: 4;
-}
-  
-.hexagon:before,
-.hexagon:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    border-left: 150px solid transparent;
-    border-right: 150px solid transparent;
-}
-  
-.hexagon:before {
-    bottom: 100%;
-    border-bottom: 86.60px solid #FFF;
-}
-  
-.hexagon:after {
-    top: 100%;
-    width: 0;
-    border-top: 86.60px solid #FFF;
-} */
 
 /* status */
 .suit { 
     width: 100px;
     z-index: 1;
-    grid-column: 3/6;
-
+    grid-column: 2/3;
+    grid-row: 3;
 }
 
 .floating {  
@@ -197,6 +186,59 @@ h1 {
     to   { transform: translate(0, -0px); }    
 }
 
+.thermometerContainer {
+    grid-row: 3/4; 
+    grid-column: 6/7;
+    z-index: 10;
+}
+
+#thermometerValue , .thermometerValue {
+    font-family: 'Poiret One', cursive;
+    color: #363636;
+    font-size: 20px;
+    grid-column: 2/13;
+    grid-row: 3/5;
+    align-self: center;
+    margin: 0 auto;
+    top: 50px;
+    padding:83px 1px 0px 35px;
+    z-index: 10;
+    
+}
+
+.buttonContainer { 
+    grid-row: 3/4; 
+    grid-column: 7/8;
+    z-index: 10;
+}
+
+#arrowUp {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 20px 20px;
+    border-color: transparent transparent #E5B7BC transparent;
+    background: transparent;
+    margin: 0 0 10px 10px;
+    padding: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#arrowDown {
+    width: 0;
+    height: 0; 
+    border-style: solid;
+    border-width: 20px 20px 0 20px;
+    border-color: #E5B7BC transparent transparent transparent;
+    background: transparent;
+    margin: 35px 0 10px 10px;
+    padding: 0px; 
+    z-index: 10;
+    cursor: pointer;
+}
+
+/* supplies */
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 320px) and (max-width : 480px) {

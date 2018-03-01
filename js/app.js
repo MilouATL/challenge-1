@@ -1,34 +1,52 @@
+// home time function
 window.onload = function docReady() {
-  setInterval(function() {
-    document.getElementById('realTime').innerHTML = moment().add(39, 'minutes').add(35, 'seconds').format('HH:mm:ss');
-  }, 500);
 
+  if (document.body.classList.contains('home')) {
+    setInterval(function() {
+      document.getElementById('realTime').innerHTML = moment().add(39, 'minutes').add(35, 'seconds').format('HH:mm:ss');
+    }, 500);
+  }
 
-  (function() {
-    var counter = 200127567;
-    window.kmCounterOptions = {
-    duration: 1000,
-    theme: "default"
- };
+  // distance in kms per sec function 
+  if (document.body.classList.contains('distance')) {
+    var kmCounter = document.getElementById('kmCounter');
+    (function() {
+      var counter = 200127567;
+      window.kmCounterOptions = {
+        duration: 1000,
+        theme: "default"
+      }
 
-kmCounter.innerHTML = counter;
+      kmCounter.innerHTML = counter;
 
-setInterval(function() {
-counter += 7900;
-kmCounter.innerHTML = counter;
-}, 1600);
-})();
+      setInterval(function() {
+        counter += 7900;
+        kmCounter.innerHTML = counter;
+      }, 1600);
+    })();
+  }
 
-//   var tr1 = document.getElementById('triangle-1');
-//   tr1.addEventListener('click', function() {
-//     console.log('test');
-//     alert('milou is gek');
-//   });
+  // temperature function  
+  var thermoVal = document.getElementById('thermometerValue');
+  document.getElementById('arrowUp').addEventListener('click', function(){
+    thermoVal.innerHTML = parseInt(thermoVal.innerHTML, 10) + 1;
+  })
+  document.getElementById('arrowDown').addEventListener('click', function(){
+    thermoVal.innerHTML = parseInt(thermoVal.innerHTML, 10) - 1;
+  })
 
-//   document.addEventListener('click', function(e) {
-//     console.log('target:', e.target);
-//   });
+  // triangle trial 
+  //   var tr1 = document.getElementById('triangle-1');
+  //   tr1.addEventListener('click', function() {
+  //     console.log('test');
+  //     alert('milou is gek');
+  //   });
+
+  //   document.addEventListener('click', function(e) {
+  //     console.log('target:', e.target);
+  //   });
 }
+
 
 
 particlesJS('particles-js', 
@@ -143,4 +161,5 @@ particlesJS('particles-js',
   }
 
 );
+
 

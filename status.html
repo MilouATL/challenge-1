@@ -8,15 +8,22 @@
   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
   <title>challenge1</title>
 </head>
-<body id="particles-js"> 
-        <!-- <a href="index.html" class="hotspot home">home</a> -->
-        <h1>Suit temperature</h1>
-        <!-- <p>Oxygen level: neutral</p>
-        <p>Body temperature: 37ºC</p> -->
-        <img class="suit floating" src="assets/astronaut.svg" alt="illustration of a space suit">
-        <img class="" src="assets/temperature.svg" alt="illustration of the thermometer">
-        <script src="./js/moment.min.js"></script>
-        <script src="./js/particles.min.js"></script>
-        <script src="./js/app.js"></script>
+<body>
+  <section id="particles-js"></section>
+    <a href="index.html"></a>
+    <h1>Suit temperature</h1>
+    <img class="suit floating" src="assets/astronaut.svg" alt="illustration of a space suit">
+    <div class="thermometerContainer">
+    <div id="thermometer"></div>
+      <img class="illustrationThermo" src="assets/thermometer.svg" alt="illustration of the thermometer">
+    </div>
+    <div class="thermometerValue"><span id="thermometerValue">20</span>°C</div>
+    <div class="buttonContainer">
+      <button id="arrowUp"></button>
+      <button id="arrowDown"></button>
+    </div>
+  <script src="./js/moment.min.js"></script>
+  <script src="./js/particles.min.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 </html>
