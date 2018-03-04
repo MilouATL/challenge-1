@@ -46,8 +46,8 @@ window.onload = function docReady() {
 
 
 // donut charts
-var foodDonut = document.getElementById("food").getContext("2d");
-if (foodDonut) {
+if (document.getElementById("food")) {
+  var foodDonut = document.getElementById("food").getContext("2d");
   var food = new Chart(foodDonut).Doughnut(
     [
       {
@@ -76,8 +76,8 @@ if (foodDonut) {
   );
 }
 
-var waterDonut = document.getElementById("water").getContext("2d");
-if (waterDonut) {
+if (document.getElementById("water")) {
+  var waterDonut = document.getElementById("water").getContext("2d");
   var water = new Chart(waterDonut).Doughnut(
     // Datas
     [
