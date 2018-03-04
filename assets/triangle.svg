@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="273px" height="272px" viewBox="0 0 273 272" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="278px" height="282px" viewBox="0 0 278 282" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 12</title>
+    <title>Group 3</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-12" stroke="#FFFFFF" stroke-width="3">
-            <path d="M136.003183,176.84017 L268.285623,270.5 L4.68630769,270.5 L136.003183,176.84017 Z" id="Path-17"></path>
-            <path d="M134.5,6.39621498 L134.5,175.226075 L4.9998233,267.31509 L134.5,6.39621498 Z" id="Path-18"></path>
-            <path d="M269.5,6.39621498 L269.5,175.226075 L139.999823,267.31509 L269.5,6.39621498 Z" id="Path-18-Copy" transform="translate(203.500000, 136.000000) scale(-1, 1) translate(-203.500000, -136.000000) "></path>
+        <g id="Group-3" transform="translate(3.000000, 4.000000)" stroke="#FFFFFF">
+            <polygon id="Triangle-3" stroke-width="3" points="136.283445 0 272.56689 275.88904 0 275.88904"></polygon>
+            <polyline id="Path-8" stroke-width="3" points="135.637552 2.61506199 135.637552 179.131746 1.29178621 274.581509"></polyline>
+            <path d="" id="Path-9"></path>
+            <path d="M136.929338,179.131746 L271.275104,274.581509" id="Path-10" stroke-width="3"></path>
         </g>
     </g>
 </svg>
