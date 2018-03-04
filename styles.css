@@ -302,11 +302,11 @@ canvas#water {
     body {
         /* HAAL DE ONDERSTAANDE REGEL WEG WANNEER JE KLAAR BENT MET DEZE MQ */ 
         background-color: blue; 
-        height: 100vh;
+        /* height: 100vh;
         display: grid; 
         grid-template-columns: repeat(6, 1fr); 
         grid-template-rows: repeat(6, 1fr);
-        overflow: hidden;    
+        overflow: hidden;     */
     }  
 
     body::before { 
