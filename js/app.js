@@ -26,25 +26,82 @@ window.onload = function docReady() {
     })();
   }
 
-  // temperature function  
+  // temperature function
   var thermoVal = document.getElementById('thermometerValue');
-  document.getElementById('arrowUp').addEventListener('click', function(){
-    thermoVal.innerHTML = parseInt(thermoVal.innerHTML, 10) + 1;
-  })
-  document.getElementById('arrowDown').addEventListener('click', function(){
-    thermoVal.innerHTML = parseInt(thermoVal.innerHTML, 10) - 1;
-  })
+  var arrowUp = document.getElementById('arrowUp');
+  var arrowDown = document.getElementById('arrowDown');
 
-  // triangle trial 
-  //   var tr1 = document.getElementById('triangle-1');
-  //   tr1.addEventListener('click', function() {
-  //     console.log('test');
-  //     alert('milou is gek');
-  //   });
+  if (arrowUp) {
+    arrowUp.addEventListener('click', function(){
+      thermoVal.innerHTML = parseInt(thermoVal.innerHTML, 10) + 1;
+    })
+  }
+  if (arrowDown) {
+    arrowDown.addEventListener('click', function(){
+      thermoVal.innerHTML = parseInt(thermoVal.innerHTML, 10) - 1;
+    })
+  }
+}
 
-  //   document.addEventListener('click', function(e) {
-  //     console.log('target:', e.target);
-  //   });
+
+
+// donut charts
+var foodDonut = document.getElementById("food").getContext("2d");
+if (foodDonut) {
+  var food = new Chart(foodDonut).Doughnut(
+    [
+      {
+        value: 300,
+        color:"#fff",
+        label: "Food"
+      },
+    ],
+    {
+      title: {
+        display: true,
+        text: 'Food',
+      },
+      segmentShowStroke : true,
+      segmentStrokeColor : "#fff",
+      segmentStrokeWidth : 2,
+      percentageInnerCutout : 80,
+      animationSteps : 100,
+      animationEasing : "easeOutBounce",
+      animateRotate : true,
+      animateScale : false,
+      responsive: true,
+      maintainAspectRatio: true,
+      showScale: true,
+    }
+  );
+}
+
+var waterDonut = document.getElementById("water").getContext("2d");
+if (waterDonut) {
+  var water = new Chart(waterDonut).Doughnut(
+    // Datas
+    [
+      {
+        value: 300,
+        color:"#fff",
+        label: "Water"
+      },
+    ],
+    // Options
+    {
+      segmentShowStroke : true,
+      segmentStrokeColor : "#fff",
+      segmentStrokeWidth : 2,
+      percentageInnerCutout : 80,
+      animationSteps : 100,
+      animationEasing : "easeOutBounce",
+      animateRotate : true,
+      animateScale : false,
+      responsive: true,
+      maintainAspectRatio: true,
+      showScale: true,
+    }
+);
 }
 
 
@@ -156,8 +213,7 @@ particlesJS('particles-js',
         }
       }
     },
-    "retina_detect": true,
-    
+    "retina_detect": true, 
   }
 
 );

@@ -7,45 +7,18 @@
   <link href="styles.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
   <title>challenge1</title>
-
-  <style>
-    #container {
-      margin: 20px;
-      width: 200px;
-      height: 200px;
-    }
-  </style>
 </head>
 <body>
-  <!-- <section id="particles-js"></section> -->
-  <section>
-      <div id="container"></div>
-  </section>
+  <section id="particles-js"></section>
+  <main class="container">
+    <a href="index.html" class="backButton"></a>
+    <canvas id="food"></canvas>
+    <canvas id="water"></canvas>
+  </main>
 
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
   <script src="./js/moment.min.js"></script>
   <script src="./js/particles.min.js"></script>
-  <script src="./js/progressbar.min.js"></script>
   <script src="./js/app.js"></script>
-  <script>
-    var bar = new ProgressBar.Circle(container, {
-      strokeWidth: 6,
-      easing: 'easeInOut',
-      duration: 1400,
-      color: '#FFEA82',
-      trailColor: '#eee',
-      trailWidth: 1,
-      svgStyle: null,
-      step: function(state, circle) {
-        var value = Math.round(circle.value() * 100);
-        if (value === 0) {
-          circle.setText('');
-        } else {
-          circle.setText(value);
-        }
-      }
-    });
-
-    bar.animate(1.0); 
-  </script>
 </body>
 </html>
