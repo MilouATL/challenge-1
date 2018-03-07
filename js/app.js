@@ -8,7 +8,8 @@ window.onload = function docReady() {
   }
 
   // distance in kms per sec function 
-  if (document.body.classList.contains('distance')) {
+  // (document.getElementById("food"))
+  if (document.getElementById("distance")) {
     var kmCounter = document.getElementById('kmCounter');
     (function() {
       var counter = 200127567;
@@ -140,7 +141,7 @@ particlesJS('particles-js',
         "random": true,
         "anim": {
           "enable": true,
-          "speed": 1,
+          "speed": 2,
           "opacity_min": 0.5,
           "sync": false
         }
@@ -150,7 +151,7 @@ particlesJS('particles-js',
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 40,
+          "speed": 50,
           "size_min": 0.1,
           "sync": false
         }
@@ -164,7 +165,7 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 0.2,
+        "speed": 0.25,
         "direction": "bottom-left",
         "random": false,
         "straight": true,

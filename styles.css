@@ -472,6 +472,11 @@ canvas#water {
         display: flex;
         flex-wrap: wrap;    
     }
+
+    /* .buttoncontainer {
+        display: block;
+    } */
+
     /* tablet supplies function */
     .suppliesFunction { 
         grid-row: 7 / 12; 
@@ -485,10 +490,31 @@ canvas#water {
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1024px) {
+       /* desktop general */
     main.container {
         display: grid;
-        grid-template-rows: repeat(10, 1fr);
+        grid-template-rows: repeat(12, 1fr);
         grid-template-columns: repeat(12, 1fr);
+    }
+
+    #realTime {
+        grid-column: 1 / 7;
+    }
+
+    .solarDay {
+        grid-column: 1 / 7;
+    }
+
+        /* desktop distance function */
+    .distanceFunction {
+        grid-row: 2/8;
+        grid-column: 8/12;
+    }
+
+    /* desktop supplies function */
+    .suppliesFunction {
+        grid-row: 8 / 12;
+        grid-column: 8 / 11;
     }
 
 }
