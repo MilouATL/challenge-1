@@ -20,7 +20,52 @@
         <a href="status.html" class="hotspot"></a>
         <a href="supplies.html" class="hotspot"></a>
     </nav>
+    <!-- the functions for the tablet and desktop version -->
+    <section class="distanceFunction">
+        <div class="distanceWrapper">
+            <h1>Hi there Starsailor,</h1>
+            <p>You’re now </p>  
+            <p class="kmCounter" id="kmCounter"></p>
+            <p>million kilometers away from home.</p>
+          </div>
+          <figure>
+              <img class="family" src="assets/family.svg" alt="A picture of a loving family. This is a piece of home you can wear with you on your journey to Mars.">
+          </figure>
+    </section>
+    <section class="statusFunction">
+        <h1>Suit temperature</h1>
+        <img class="suit floating" src="assets/astronaut.svg" alt="illustration of a space suit">
+        <div class="thermometerContainer">
+          <figure>
+              <img src="assets/thermometer.svg" id="thermometer"></img>
+          </figure>
+          <div class="thermometerValue">
+            <p class ="themometerCelsius">
+              <span id="thermometerValue">20</span>
+              °C
+            </p>
+          </div>
+        </div>
+        <div class="buttonContainer">
+          <button id="arrowUp"></button>
+          <button id="arrowDown"></button>
+        </div>
+    </section>
+    <section class="suppliesFunction">
+        <h1>Food &amp; water supplies</h1>
+        <canvas id="food"></canvas>
+        <div class="foodContainer">
+            <p>100%</p>
+            <p>Food: 48.822 KG</p>
+        </div>
+        <canvas id="water"></canvas>
+        <div class="waterContainer">
+          <p>100%</p>
+          <p>Water: 81.370 L</p>
+        </div>
+    </section>
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
   <script src="./js/moment.min.js"></script>
   <script src="./js/particles.min.js"></script>
   <script src="./js/app.js"></script>

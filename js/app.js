@@ -83,14 +83,14 @@ if (document.getElementById("water")) {
     [
       {
         value: 300,
-        color:"#fff",
+        color:"#363636",
         label: "Water"
       },
     ],
     // Options
     {
       segmentShowStroke : true,
-      segmentStrokeColor : "#fff",
+      segmentStrokeColor : "#363636",
       segmentStrokeWidth : 2,
       percentageInnerCutout : 80,
       animationSteps : 100,
@@ -105,6 +105,7 @@ if (document.getElementById("water")) {
 }
 
 
+    // background particles js 
 
 particlesJS('particles-js', 
   {

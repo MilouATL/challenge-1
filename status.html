@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="styles.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-  <title>challenge1</title>
-</head>
-<body>
-  <section id="particles-js"></section>
-  <main class="container">
-    <a href="index.html" class="backButton"></a>
-    <h1>Suit temperature</h1>
-    <img class="suit floating" src="assets/astronaut.svg" alt="illustration of a space suit">
-    <div class="thermometerContainer">
-    <div id="thermometer"></div>
-      <img class="illustrationThermo" src="assets/thermometer.svg" alt="illustration of the thermometer">
-    </div>
-    <div class="thermometerValue"><span id="thermometerValue">20</span>°C</div>
-    <div class="buttonContainer">
-      <button id="arrowUp"></button>
-      <button id="arrowDown"></button>
-    </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <title>challenge1</title>
+  </head>
+  <body>
+    <section id="particles-js"></section>
+    <main class="container">
+      <a href="index.html" class="backButton"></a>
+      <h1>Suit temperature</h1>
+      <img class="suit floating" src="assets/astronaut.svg" alt="illustration of a space suit">
+      <div class="thermometerContainer">
+        <figure>
+            <img src="assets/thermometer.svg" id="thermometer"></img>
+        </figure>
+        <div class="thermometerValue">
+          <p class ="themometerCelsius">
+            <span id="thermometerValue">20</span>
+            °C
+          </p>
+        </div>
+      </div>
+      <div class="buttonContainer">
+        <button id="arrowUp"></button>
+        <button id="arrowDown"></button>
+      </div>
   </main>
   <script src="./js/moment.min.js"></script>
   <script src="./js/particles.min.js"></script>

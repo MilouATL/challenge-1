@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="87px" height="112px" viewBox="0 0 87 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
-    <title>thermometer</title>
+<svg width="29px" height="67px" viewBox="0 0 29 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="thermometer">
-            <rect id="Rectangle-20" fill="#E5B7BC" x="0" y="0" width="87" height="112" rx="10"></rect>
+        <g id="thermometer" transform="translate(-29.000000, -10.000000)">
             <g id="Group-16" transform="translate(29.000000, 10.000000)">
-                <path d="M4,42.4999611 C1.52151904,45.1015662 0,48.6230982 0,52.5 C0,60.5081289 6.49187113,67 14.5,67 C22.5081289,67 29,60.5081289 29,52.5 C29,48.6230982 27.478481,45.1015662 25,42.4999611 L25,10.5044844 C25,4.70089996 20.2989899,0 14.5,0 C8.69973509,0 4,4.70301787 4,10.5044844 L4,42.4999611 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-                <path d="M11,44.7524406 C8.05147494,46.0876743 6,49.0580044 6,52.5079291 C6,57.2067286 9.80557963,61.0158582 14.5,61.0158582 C19.1944204,61.0158582 23,57.2067286 23,52.5079291 C23,49.0580044 20.9485251,46.0876743 18,44.7524406 L18,20.4988237 C18,18.5702056 16.4329966,17 14.5,17 C12.5709366,17 11,18.5664767 11,20.4988237 L11,44.7524406 Z" id="Combined-Shape" fill="#BF4C59"></path>
+                <path d="M4,42.4999611 L4,10.5044844 C4,4.70301787 8.69973509,0 14.5,0 C20.2989899,0 25,4.70089996 25,10.5044844 L25,42.4999611 C27.478481,45.1015662 29,48.6230982 29,52.5 C29,60.5081289 22.5081289,67 14.5,67 C6.49187113,67 0,60.5081289 0,52.5 C0,48.6230982 1.52151904,45.1015662 4,42.4999611 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <path d="M11,44.7524406 L11,20.4988237 C11,18.5664767 12.5709366,17 14.5,17 C16.4329966,17 18,18.5702056 18,20.4988237 L18,44.7524406 C20.9485251,46.0876743 23,49.0580044 23,52.5079291 C23,57.2067286 19.1944204,61.0158582 14.5,61.0158582 C9.80557963,61.0158582 6,57.2067286 6,52.5079291 C6,49.0580044 8.05147494,46.0876743 11,44.7524406 Z" id="Combined-Shape" fill="#BF4C59"></path>
             </g>
         </g>
     </g>
