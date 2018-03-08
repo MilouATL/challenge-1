@@ -509,13 +509,29 @@ canvas#water {
 
     /* desktop distance function */
     .distanceFunction {
-        grid-row: 2/8;
+        grid-row: 2/7;
         grid-column: 8/12;
+    }
+
+    figure { 
+        height: 60%;
+        width: auto;
+        padding: 15px;
+    }
+
+     /* desktop status function */
+    .statusFunction {
+        grid-row: 8 / 12; 
+        grid-column: 3 / 5;   
     }
 
     /* desktop supplies function */
     .suppliesFunction {
         grid-row: 8 / 12;
-        grid-column: 8 / 11;
+        grid-column: 8 / 12;
     }
+}
+
+@media only screen  and (min-width : 1200px) {
+
 }
