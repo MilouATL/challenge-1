@@ -465,6 +465,10 @@ canvas#water {
         flex-wrap: wrap;
     }
 
+    figure { 
+        height: 50%;
+    }
+
     /* tablet status function */
     .statusFunction { 
         grid-row: 7 / 12;
@@ -475,9 +479,6 @@ canvas#water {
         flex-wrap: wrap;    
     }
 
-    /* .buttoncontainer {
-        display: block;
-    } */
 
     /* tablet supplies function */
     .suppliesFunction { 
@@ -487,7 +488,32 @@ canvas#water {
         justify-content: space-between;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
+
+    .canvasWrapper { 
+        height: 153px;
+        width: 150px; 
+        overflow: hidden;
+    }
+
+    .canvasWrapper canvas {
+        margin-left: -75px;
+    }
+
+    .foodContainer,
+    .waterContainer {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .foodContainer p,
+    .waterContainer p {
+        flex-basis: 100%;
+    }
+
 }
 
 /* Desktops and laptops ----------- */
@@ -497,14 +523,18 @@ canvas#water {
         display: grid;
         grid-template-rows: repeat(12, 1fr);
         grid-template-columns: repeat(12, 1fr);
+        max-width: 1100px;
+        margin: 0 auto;
     }
 
     #realTime {
-        grid-column: 1 / 7;
+        grid-column: 2 / 5;
+        text-align: left;
     }
 
     .solarDay {
-        grid-column: 1 / 7;
+        grid-column: 2 / 5;
+        margin-left: -80px;
     }
 
     /* desktop distance function */
@@ -522,7 +552,7 @@ canvas#water {
      /* desktop status function */
     .statusFunction {
         grid-row: 8 / 12; 
-        grid-column: 3 / 5;   
+        grid-column: 2 / 5;   
     }
 
     /* desktop supplies function */
