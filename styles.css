@@ -457,8 +457,8 @@ canvas#water {
 
     /* tablet distance function */
     .distanceFunction {
-        grid-row: 2/7;
-        grid-column: 7/10;
+        grid-row: 2 / 7;
+        grid-column: 7 / 10;
         align-content: space-between;
         justify-content: space-between;
         display: flex;
@@ -466,7 +466,9 @@ canvas#water {
     }
 
     figure { 
-        height: 50%;
+        width: 60%;
+        height: auto; 
+        padding: 15px;
     }
 
     /* tablet status function */
@@ -560,8 +562,4 @@ canvas#water {
         grid-row: 8 / 12;
         grid-column: 8 / 12;
     }
-}
-
-@media only screen  and (min-width : 1200px) {
-
 }
